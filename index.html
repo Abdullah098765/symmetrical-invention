@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script>
+
+
+var dat = new Date(128044800000);
+
+
+var csal = new Date(prompt("","2015 5 18"));
+
+var bsal = new Date(prompt("", "2019 5 18"));
+
+var ch = csal.getTime()
+var br = bsal.getTime()
+
+var sub = br - ch
+
+
+var dis = sub/1000
+
+var dim = dis/60
+
+var dig = dim/60
+
+var did = dig/24
+
+var did1 = did/30
+
+var dis1 = did1/12
+
+
+
+alert(dis1 + " Years " + did1 + " Month " + did + " Days " + dig + " Hours " + dim + " Minuts " + dis + " Seconds " + sub + " Milliseconds")
+
+
+console.log(did1);
+console.log();
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+</body>
+</html>
